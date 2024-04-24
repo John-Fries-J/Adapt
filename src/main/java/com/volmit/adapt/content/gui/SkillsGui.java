@@ -63,7 +63,7 @@ public class SkillsGui {
                         .setProgress(1D)
                         .addLore(C.ITALIC + "" + C.GRAY + sk.getDescription())
                         .addLore(C.UNDERLINE + "" + C.WHITE + i.getKnowledge() + C.RESET + " " + C.GRAY + Localizer.dLocalize("snippets", "gui", "knowledge"))
-                        .addLore(C.ITALIC + "" + C.GRAY + Localizer.dLocalize("snippets", "gui", "powerused") + " " + C.DARK_GREEN + adaptationLevel)
+                        .addLore(C.ITALIC + "" + C.GRAY + Localizer.dLocalize("snippets", "gui") + " " + C.DARK_GREEN + adaptationLevel)
                         .onLeftClick((e) -> sk.openGui(player)));
                 ind++;
             }
