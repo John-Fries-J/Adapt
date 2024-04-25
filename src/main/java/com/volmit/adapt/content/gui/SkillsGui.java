@@ -22,7 +22,6 @@ import com.volmit.adapt.Adapt;
 import com.volmit.adapt.AdaptConfig;
 import com.volmit.adapt.api.skill.Skill;
 import com.volmit.adapt.api.world.AdaptPlayer;
-import com.volmit.adapt.api.world.PlayerAdaptation;
 import com.volmit.adapt.api.world.PlayerSkillLine;
 import com.volmit.adapt.api.xp.XP;
 import com.volmit.adapt.util.*;
@@ -52,10 +51,6 @@ public class SkillsGui {
                 }
                 int pos = w.getPosition(ind);
                 int row = w.getRow(ind);
-                int adaptationLevel = 0;
-                for (PlayerAdaptation adaptation : i.getAdaptations().sortV()) {
-                    adaptationLevel = adaptation.getLevel();
-                }
                 Skill<?> sk = Adapt.instance.getAdaptServer().getSkillRegistry().getSkill(i.getLine());
                 w.setElement(pos, row, new UIElement("skill-" + sk.getName())
                         .setMaterial(new MaterialBlock(sk.getIcon()))
@@ -63,7 +58,6 @@ public class SkillsGui {
                         .setProgress(1D)
                         .addLore(C.ITALIC + "" + C.GRAY + sk.getDescription())
                         .addLore(C.UNDERLINE + "" + C.WHITE + i.getKnowledge() + C.RESET + " " + C.GRAY + Localizer.dLocalize("snippets", "gui", "knowledge"))
-                        .addLore(C.ITALIC + "" + C.GRAY + Localizer.dLocalize("snippets", "gui") + " " + C.DARK_GREEN + adaptationLevel)
                         .onLeftClick((e) -> sk.openGui(player)));
                 ind++;
             }
