@@ -1016,7 +1016,8 @@
     "haste": {
       "name": "Turtle Miner",
       "description": "While mining underwater you gain haste!",
-      "lore1": "Haste 3 is applied underwater while mining (stacks with AquaAffinity) after your water breathing effect wears off!"
+      "lore1": "Haste 3 is applied underwater while mining (stacks with Aqua Affinity) after your water",
+      "lore2": "breathing effect wears off!"
     },
     "nightvision": {
       "name": "Turtle's Vision",
