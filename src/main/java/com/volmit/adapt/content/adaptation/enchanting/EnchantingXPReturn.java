@@ -52,7 +52,7 @@ public class EnchantingXPReturn extends SimpleAdaptation<EnchantingXPReturn.Conf
     @Override
     public void addStats(int level, Element v) {
         v.addLore(C.GRAY + Localizer.dLocalize("enchanting", "return", "lore1"));
-        v.addLore(C.GREEN + "" + getConfig().xpReturn * (level * level) + Localizer.dLocalize("enchanting", "return", "lore2"));
+        v.addLore(C.GREEN + "" + getConfig().xpReturn * (level * level) + " " + Localizer.dLocalize("enchanting", "return", "lore2"));
     }
 
     @EventHandler
