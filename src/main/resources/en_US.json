@@ -299,7 +299,7 @@
       "knowledgeorb": "Knowledge Orb"
     },
     "experienceorb": {
-      "contains": "contains",
+      "contains": "Contains",
       "xp": "Experience",
       "rightclick": "Right-Click",
       "togainxp": "to gain this experience",
@@ -327,7 +327,7 @@
     "brewing": {
       "name": "Brewing",
       "icon": "❦",
-      "description": "Double Bubble, Triple Bubble, Quadruple Bubble- I still cant put this potion into a cauldron"
+      "description": "Enhance your abilities using these skills dedicated to magical brews and elixirs"
     },
     "blocking": {
       "name": "Blocking",
@@ -372,7 +372,7 @@
     "pickaxe": {
       "name": "Pickaxe",
       "icon": "⛏",
-      "description": "Dwarves are the miners, but ive learned a thing or two in my time. IM SWEDISH"
+      "description": "Dwarves are the miners, but ive learned a thing or two in my time. I'M SWEDISH"
     },
     "ranged": {
       "name": "Ranged",
@@ -533,61 +533,61 @@
       "name": "Bottled Haste",
       "description": "When Efficiency is not enough",
       "lore1": "Speed Potion + Amethyst Shard = Potion of Haste (60 seconds)",
-      "lore2": "Speed Potion + Amethyst Block = Potion of Haste-2 (30 seconds)"
+      "lore2": "Speed Potion + Amethyst Block = Potion of Haste 2 (30 seconds)"
     },
     "absorption": {
       "name": "Bottled Absorption",
       "description": "Harden the body!",
       "lore1": "Instant Heal + Quartz = Potion of Absorption (60 seconds)",
-      "lore2": "Instant Heal + Quartz Block = Potion of Absorption-2 (30 seconds)"
+      "lore2": "Instant Heal + Quartz Block = Potion of Absorption 2 (30 seconds)"
     },
     "fatigue": {
       "name": "Bottled Fatigue",
       "description": "Weaken the body!",
       "lore1": "Weakness Potion + Slime Ball = Potion of Fatigue (30 seconds)",
-      "lore2": "Weakness Potion + Slime Block = Potion of Fatigue-2 (15 seconds)"
+      "lore2": "Weakness Potion + Slime Block = Potion of Fatigue 2 (15 seconds)"
     },
     "hunger": {
       "name": "Bottled Hunger",
-      "description": "Feed the Insatiable!",
+      "description": "Feed the insatiable!",
       "lore1": "Awkward Potion + Rotten Flesh = Potion of Hunger (30 seconds)",
-      "lore2": "Weakness Potion + Rotten Flesh = Potion of Hunger-3 (15 seconds)"
+      "lore2": "Weakness Potion + Rotten Flesh = Potion of Hunger 3 (15 seconds)"
     },
     "nausea": {
       "name": "Bottled Nausea",
       "description": "You make me sick!",
       "lore1": "Awkward Potion + Brown Mushroom = Potion of Nausea (16 seconds)",
-      "lore2": "Awkward Potion + Crimson Fungus = Potion of Nausea-2 (8 seconds)"
+      "lore2": "Awkward Potion + Crimson Fungus = Potion of Nausea 2 (8 seconds)"
     },
     "blindness": {
       "name": "Bottled Blindness",
       "description": "You're a horrible person...",
       "lore1": "Awkward Potion + Ink sack = Potion of Blindness (30 seconds)",
-      "lore2": "Awkward Potion + Glowing Ink Sack = Potion of Blindness-2 (15 seconds)"
+      "lore2": "Awkward Potion + Glowing Ink Sack = Potion of Blindness 2 (15 seconds)"
     },
     "resistance": {
       "name": "Bottled Resistance",
       "description": "Fortification at its finest!",
       "lore1": "Awkward Potion + Iron Ingot = Potion of Resistance (60 seconds)",
-      "lore2": "Awkward Potion + Iron Block = Potion of Resistance-2 (30 seconds)"
+      "lore2": "Awkward Potion + Iron Block = Potion of Resistance 2 (30 seconds)"
     },
     "healthboost": {
       "name": "Bottled Life",
-      "description": "When Maximum health is not enough...",
+      "description": "When maximum health is not enough...",
       "lore1": "Instant-Healing Potion + Golden Apple = Potion of Health Boost (120 seconds)",
-      "lore2": "Instant-Healing Potion + Enchanted Golden Apple = Potion of Health Boost-2 (120 seconds)"
+      "lore2": "Instant-Healing Potion + Enchanted Golden Apple = Potion of Health Boost 2 (120 seconds)"
     },
     "decay": {
       "name": "Bottled Decay",
       "description": "Who knew Detritus would be so useful?",
       "lore1": "Weakness Potion + Poisonous Potato = Potion of Wither (16 seconds)",
-      "lore2": "Weakness Potion + Crimson Roots = Potion of Wither-2 (8 seconds)"
+      "lore2": "Weakness Potion + Crimson Roots = Potion of Wither 2 (8 seconds)"
     },
     "saturation": {
       "name": "Bottled Saturation",
-      "description": "Ya know... Im not even Hungry...",
+      "description": "Ya know... I'm not even hungry...",
       "lore1": "Regen Potion + Baked Potato = Potion of Saturation",
-      "lore2": "Regen Potion + Hay Bale = Potion of Saturation-2"
+      "lore2": "Regen Potion + Hay Bale = Potion of Saturation 2"
     }
   },
   "blocking": {
@@ -622,7 +622,7 @@
       "name": "Deconstruction",
       "description": "Deconstruct blocks & items into salvageable base components!",
       "lore1": "Drop any item on the ground.",
-      "lore2": "Then, Sneak and Right-Click with SHears"
+      "lore2": "Then, Sneak and Right-Click with Shears"
     },
     "xp": {
       "name": "Crafting XP",
@@ -640,14 +640,14 @@
     "leather": {
       "name": "Craftable Leather",
       "description": "Craft Leather from Rotten Flesh",
-      "lore1": "Just toss it(rotten flesh) on the campfire!"
+      "lore1": "Just toss it (rotten flesh) on the campfire!"
     },
     "backpacks": {
       "name": "A Boutilier's Backpacks!",
-      "description": "This just Brings the Mojang Bundle into the game!",
+      "description": "This just brings the Mojang bundle into the game!",
       "lore1": "You need to be in Survival to use this",
       "lore2": "XLX : Leather, Lead, Leather",
-      "lore3": "XSX : Leather, Barrel Box, Leather",
+      "lore3": "XSX : Leather, Barrel, Leather",
       "lore4": "XCX : Leather, Chest, Leather"
     },
     "stations": {
@@ -658,8 +658,8 @@
     },
     "skulls": {
       "name": "Craftable skulls!",
-      "description": "Using Materials you can Craft Mob Skulls!",
-      "lore1": "Surround a Bone Block with the following to get a skull:",
+      "description": "Using materials you can craft mob skulls!",
+      "lore1": "Surround a bone block with the following to get a skull:",
       "lore2": "Zombie: Rotting Flesh",
       "lore3": "Skeleton: Bone",
       "lore4": "Creeper: Gunpowder",
