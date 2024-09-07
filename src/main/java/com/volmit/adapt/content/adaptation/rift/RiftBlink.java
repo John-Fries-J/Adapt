@@ -113,7 +113,7 @@ public class RiftBlink extends SimpleAdaptation<RiftBlink.Config> {
                 }
                 if (getConfig().showParticles) {
 
-                    vfxParticleLine(locOG, loc, Particle.REVERSE_PORTAL, 50, 8, 0.1D, 1D, 0.1D, 0D, null, false, l -> l.getBlock().isPassable());
+                    vfxParticleLine(locOG, loc, Particle.REVERSE_PORTAL, 12, 1, 0.1D, 1D, 0.1D, 0D, null, false, l -> l.getBlock().isPassable());
                 }
                 Vector v = p.getVelocity().clone();
                 loadChunkAsync(loc, chunk -> {

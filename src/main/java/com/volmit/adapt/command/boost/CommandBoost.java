@@ -62,4 +62,3 @@ public final class CommandBoost {
         FConst.success("Boosted XP by " + multiplier + " for " + seconds + " seconds").send(sender);
     }
 }
-

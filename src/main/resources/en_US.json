@@ -461,7 +461,7 @@
     "wirelessredstone": {
       "name": "Redstone Remote",
       "description": "This allows for you to use a redstone torch to toggle redstone, remotely!",
-      "lore1": "Target + Redstone Torch + Enderperal = 1 Redstone Remote"
+      "lore1": "Target + Redstone Torch + Enderpearl = 1 Redstone Remote"
     },
     "placement": {
       "name": "Builders Wand",
